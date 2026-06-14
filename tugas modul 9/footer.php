@@ -1,7 +1,7 @@
 </div>
 
 <div class="footer">
-    Footer
+    @copy Arifin 2026
 </div>
 
 </body>

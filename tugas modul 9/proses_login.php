@@ -22,11 +22,11 @@ if(array_key_exists($username, $users))
     }
     else
     {
-        header("Location: login.php?pesan=Password yang dimasukkan salah");
+        header("Location: index.php?pesan=Password yang dimasukkan salah");
     }
 }
 else
 {
-    header("Location: login.php?pesan=Username tidak terdaftar");
+    header("Location: index.php?pesan=Username tidak terdaftar");
 }
 ?>
